@@ -1,0 +1,85 @@
+/* Mengatur semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    color: #334155;
+    line-height: 1.8;
+    padding: 30px 15px;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* Garis pembatas */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #93c5fd;
+    margin: 20px 0;
+}
+
+/* Kotak profil */
+body {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #eff6ff;
+}
+
+body > h1,
+body > h2,
+body > p,
+body > hr {
+    background-color: white;
+}
+
+/* Subjudul */
+h2 {
+    color: #2563eb;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Efek hover pada subjudul */
+h2:hover {
+    color: #1e40af;
+    transition: 0.3s;
+}
+
+/* Tampilan layar HP */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
